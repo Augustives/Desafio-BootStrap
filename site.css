@@ -1,0 +1,255 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #fafafa;
+	color: black;
+	overflow-x: hidden;
+}
+
+.navContainer {
+	background: #fafafa;
+
+}
+
+.navbar-brand {
+	color: white;
+	background: #b34232;
+	padding: 20px 55px;
+	margin: 0px 5vw;
+	font-size: 1.6rem
+}
+
+.navbar-brand:hover {
+	color: #fafafa
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #b34232;
+} 
+
+.navbar-collapse {
+	margin: 0px 5vw;
+	display: flex;
+	justify-content: flex-end
+}
+
+.nav-item {
+	border-right: solid 1px #1e68aa;
+	line-height: 5px;
+	padding: 0px 12px
+}
+
+.nav-item:nth-of-type(6) {
+	border-right: none
+}
+
+.nav-link {
+	color: #1e68aa;
+	text-transform: uppercase;
+	font-size: 1.2rem
+}
+
+.idioma {
+	color: #b34232;
+	border-right: none;
+}
+
+.idioma:hover {
+	color: red;
+}
+
+
+.about {
+	border-top: 2px solid #d5d4d9;
+	border-bottom: 2px solid #d5d4d9;
+	width: 100%;
+  	height: 60vh;
+  	background-size: cover;
+  	background-position: center;
+  	background-image: url("https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+}
+
+#aboutText {
+	font-size: 2rem;
+	max-width: 350px
+}
+
+#aboutTextBorder {
+	margin-top: 15px;
+	border-bottom: 5px solid #b34232;
+	border-radius: 25px;
+	width: 8%
+}
+
+.textoImagem {
+	margin-left: 14.5vw;
+	margin-top: 4.5vw;
+}
+
+.clients {
+	background: #f2f2f2;
+	padding: 80px 0px
+}
+
+#clientsBorder {
+	border-bottom: 2px solid #b34232;
+	border-radius: 25px;
+	width: 5%;
+	margin-left: 47.5%;
+	margin-bottom: 15px
+}
+
+.title {
+	font-size: 40px;
+	margin-bottom: 100px;
+}
+
+.secondTitle {
+	text-decoration: none;
+	color: #b34232;
+	font-size: 1.2rem
+}
+
+.secondTitle:hover {
+	color: red;
+}
+
+.clientsRow {
+	margin: 0px 2.5vw;
+}
+
+.clientsText {
+	margin-top: 15px;
+}
+
+.secondTitleBorder {
+	border-bottom: 2px solid #b34232;
+	border-radius: 25px;
+	margin-bottom: 25px
+}
+
+.testimonials {
+	background: #fafafa;
+	padding: 80px 0px
+}
+
+.slideshow-container {
+  position: relative;
+  background: #fafafa;
+}
+
+.mySlides {
+  display: none;
+  padding: 0px 15vw;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 0px 200px; 
+  color: #b34232;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+q,
+.author {
+	font-style: italic;
+	font-size: 1.4rem
+}
+
+.author {
+	padding-top: 20px
+}
+
+
+.rodape {
+	background: #1b3146;
+	color: white;
+}
+
+.rodapeTitulo {
+	font-size: 1.4rem;
+	padding: 20px 0px;
+}
+
+.rodapeUl {
+	font-size: 1rem;
+}
+
+.rodapeUl li {
+	margin: 5px;
+	color: white;
+}
+
+.rodapeTituleSec {
+	font-size: 1.3rem;
+	margin: 15px 0px
+}
+
+.rodapeTituleSec:nth-of-type(1) {
+	margin-top: 0
+}
+
+.rodapeCol a {
+	text-decoration: none;
+	color: white
+}
+
