@@ -57,7 +57,6 @@ body {
 	color: white;
 	background: #b34232;
 	padding: 20px 55px;
-	margin: 0px 5vw;
 	font-size: 1.6rem
 }
 
@@ -74,9 +73,8 @@ body {
 } 
 
 .navbar-collapse {
-	margin: 0px 5vw;
 	display: flex;
-	justify-content: flex-end
+	justify-content: flex-end;
 }
 
 .nav-item {
@@ -186,17 +184,16 @@ body {
 
 .mySlides {
   display: none;
-  padding: 0px 15vw;
+  padding: 0px 5vw;
   text-align: center;
 }
 
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 10vh;
   width: auto;
   margin-top: -30px;
-  padding: 0px 200px; 
   color: #b34232;
   font-weight: bold;
   font-size: 20px;
@@ -206,7 +203,6 @@ body {
 .next {
   position: absolute;
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 
 q,
@@ -218,7 +214,6 @@ q,
 .author {
 	padding-top: 20px
 }
-
 
 .rodape {
 	background: #1b3146;
@@ -253,3 +248,33 @@ q,
 	color: white
 }
 
+.shortText {
+	display: none
+}
+
+@media (max-width: 1360px) {
+	#pAreas {
+		display: none
+	}
+
+	.shortText {
+		display: inline-flex;
+	}
+
+	
+	.nav-item {
+		border: none;
+		padding: 0;
+	}
+}
+
+@media (max-width: 764px) {
+	.secondTitleBorder {
+		display: none
+	}
+
+	.clientsText {
+		padding-bottom: 10px
+	}
+
+}
